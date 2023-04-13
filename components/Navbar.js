@@ -66,7 +66,8 @@ const Navigation = () => {
               </div>
 
 
-              <div className="navbar-end relative">
+              <div className="navbar-end">
+
                 <div className="hidden lg:block">
                   <Link
                     href={"/"}
@@ -81,7 +82,6 @@ const Navigation = () => {
                     Sign up
                   </Link>
                 </div>
-
 
                 <div className="block lg:hidden">
                   {isOpen ? (
@@ -163,7 +163,7 @@ const Navigation = () => {
                   <li className="py-4 text-center">
                     <Link
                       href={"#"}
-                      className="bg-transparent underline underline-offset-1 text-minsk font-mulish font-bold uppercase text-xs mr-8 font-normal normal"
+                      className="bg-transparent underline underline-offset-1 text-minsk font-mulish font-bold uppercase text-xs mr-8 normal"
                     >
                       Log in
                     </Link>
@@ -171,7 +171,7 @@ const Navigation = () => {
                   <li className="py-4 pb-8 text-center">
                     <Link
                       href={"#"}
-                      className="bg-gradient-to-r from-lavender to-minsk rounded py-3 px-10 font-mulish font-normal normal font-black text-white uppercase"
+                      className="bg-gradient-to-r from-lavender to-minsk rounded py-3 px-10 font-mulish font-bold normal  text-white uppercase"
                     >
                       Sign up
                     </Link>

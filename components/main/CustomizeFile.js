@@ -77,7 +77,7 @@ const CustomizeFile = () => {
                 <input
                   type="text"
                   placeholder="Enter size"
-                  className="input input-bordered rounded-lg mx-3 md:w-[140px] lg:w-full text-butterflyBush"
+                  className="input input-bordered rounded-lg mx-3 w-[140px] sm:w-[140px] lg:w-full text-butterflyBush"
                 />
                 <span className="bg-transparent text-butterflyBush text-sm font-normal normal mt-3">
                   px
@@ -262,14 +262,14 @@ const CustomizeFile = () => {
               <input
                 type="text"
                 placeholder="Enter size"
-                className="input input-bordered rounded-lg  mx-3 text-butterflyBush"
+                className="w-[140px] sm:w-full  input input-bordered rounded-lg  mx-3 text-butterflyBush"
               />
             </div>
             <div className="flex">
               <input
                 type="text"
                 placeholder="Enter size"
-                className="input input-bordered rounded-lg mx-3  text-butterflyBush"
+                className="w-[140px] sm:w-full  input input-bordered rounded-lg mx-3  text-butterflyBush"
               />
               <span className="bg-transparent text-butterflyBush text-sm font-normal normal mt-3">
                 suffix
@@ -286,7 +286,7 @@ const CustomizeFile = () => {
               <span className="bg-transparent text-butterflyBush text-sm font-normal normal pr-5 mb-3">
                 JPG
               </span>
-              <RangeSlider value={70} />
+              <RangeSlider value={60} />
             </div>
             <div className="my-2">
               <span className="bg-transparent text-butterflyBush text-sm font-normal normal pr-5 mb-3">

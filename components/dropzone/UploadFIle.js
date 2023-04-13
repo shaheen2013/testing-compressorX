@@ -201,7 +201,7 @@ const UploadFile = ({ setSelectedImage, setEditImage }) => {
                     <p className="font-mukta font-normal normal text-x16 text-martinique">
                       Image_{index + 1}
                     </p>
-                    <div className="absolute top-6 right-2 z-10">
+                    <div className="absolute top-6 right-2 z-[5]">
                       <button
                         className="bg-transparent"
                         onClick={() => {
@@ -264,7 +264,7 @@ const UploadFile = ({ setSelectedImage, setEditImage }) => {
                     <p className="font-mukta font-normal normal text-x16 text-martinique">
                       Image_{index + 1}
                     </p>
-                    <div className="absolute top-6 right-2 z-10">
+                    <div className="absolute top-6 right-2 z-[5]">
                       <button
                         className="bg-transparent"
                         onClick={() => {
