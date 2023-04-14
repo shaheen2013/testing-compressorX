@@ -30,8 +30,8 @@ const CustomizeFile = () => {
             <button
               className={
                 `w-[100%] ${resize_tab === "px"
-                  ? "text-sm border-r-2 w-24 px-1 py-2 my-10 bg-lavender font-bold normal text-christalle border-lavender rounded-l-lg md:text-base"
-                  : "text-sm border-r-2 w-24 px-1 py-2 my-10 bg-lightLavender text-lavender font-bold normal border-lavender rounded-l-lg md:text-base"}`
+                  ? "text-sm border-r-2 w-[100%] px-1 py-2 my-10 bg-lavender font-bold normal text-christalle border-lavender rounded-l-lg md:text-base"
+                  : "text-sm border-r-2 w-[100%] px-1 py-2 my-10 bg-lightLavender text-lavender font-bold normal border-lavender rounded-l-lg md:text-base"}`
               }
               onClick={() => {
                 setResizeTab("px");
@@ -42,8 +42,8 @@ const CustomizeFile = () => {
             <button
               className={
                 `w-[100%] ${resize_tab === "percentage"
-                  ? "text-sm border-r-2 w-24 px-1 py-2 my-10 bg-lavender font-bold normal text-christalle border-lavender md:text-base"
-                  : "text-sm border-r-2 w-24 px-1 py-2 my-10 bg-lightLavender text-lavender font-bold normal border-lavender md:text-base"}`
+                  ? "text-sm border-r-2 w-[100%] px-1 py-2 my-10 bg-lavender font-bold normal text-christalle border-lavender md:text-base"
+                  : "text-sm border-r-2 w-[100%] px-1 py-2 my-10 bg-lightLavender text-lavender font-bold normal border-lavender md:text-base"}`
               }
               onClick={() => {
                 setResizeTab("percentage");
@@ -54,8 +54,8 @@ const CustomizeFile = () => {
             <button
               className={
                 `w-[100%] ${resize_tab === "device"
-                  ? "text-sm border-r-2 w-24 px-1 py-2 my-10 bg-lavender font-bold normal text-christalle border-lavender rounded-r-lg md:text-base"
-                  : "text-sm border-r-2 w-24 px-1 py-2 my-10 bg-lightLavender text-lavender font-bold normal border-lavender rounded-r-lg md:text-base"}`
+                  ? "text-sm border-r-2 w-[100%] px-1 py-2 my-10 bg-lavender font-bold normal text-christalle border-lavender rounded-r-lg md:text-base"
+                  : "text-sm border-r-2 w-[100%] px-1 py-2 my-10 bg-lightLavender text-lavender font-bold normal border-lavender rounded-r-lg md:text-base"}`
               }
               onClick={() => {
                 setResizeTab("device");

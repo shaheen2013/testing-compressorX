@@ -116,7 +116,7 @@ const Navigation = () => {
         {isOpen ? (
           <div className="bg-white fixed w-[100vw] h-[100vh] z-10 top-16 left-0">
             <ul className="bg-gradient-to-r from-lightPink to-anakiwa h-[100vh]">
-              <div className="md:flex justify-between md:pt-7 md:pr-7">
+              <div className="md:flex justify-between md:pt-7 w-[95%] mx-auto md:pr-7">
                 <div>
                   <li className="py-4 pl-6">
                     <Link

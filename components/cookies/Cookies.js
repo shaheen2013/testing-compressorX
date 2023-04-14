@@ -8,16 +8,19 @@ const Cookies = () => {
         <div className="my-6 lg:my-12 md:my-8">
             <div className="my-10">
                 <p className="font-mulish normal font-bold text-x18 lg:text-x20 text-christalle my-2">Information We Collect About You</p>
-                <p className="text-butterflyBush font-mulish font-normal text-x14 lg:text-x16 my-2">We want to be transparent about the data we and our partners collect and how we use it, so you can best exercise control over your personal data. For more information, please see our <Link href={"#"} className="underline font-black text-x16">Cookie Policy.</Link></p>
+                <p className="text-butterflyBush font-mulish font-normal text-x14 lg:text-x16 my-2 text-justify">We want to be transparent about the data we and our partners collect and how we use it, so you can best exercise control over your personal data. For more information, please see our <Link href={"#"} className="underline font-black text-x16">Cookie Policy.</Link></p>
             </div>
             <div className="my-10">
                 <p className="font-mulish normal font-bold text-x18 lg:text-x20 text-christalle my-2">Information Our Partners Collect</p>
-                <p className="text-butterflyBush font-mulish font-normal text-x14 lg:text-x16 my-2">We use a number partners to better improve your overall web browsing experience. They use cookies and other mechanisms to connect you with your social networks and tailor advertising to better match your interests. We have grouped these vendors into 3 categories based on their functional area. Click on learn more to view the list of vendors in each category.</p>
+                <p className="text-butterflyBush font-mulish font-normal text-x14 lg:text-x16 my-2 text-justify">We use a number partners to better improve your overall web browsing experience. They use cookies and other mechanisms to connect you with your social networks and tailor advertising to better match your interests. We have grouped these vendors into 3 categories based on their functional area. Click on learn more to view the list of vendors in each category.</p>
             </div>
             <div className="flex flex-row justify-between">
-                <p className="font-mulish normal font-black text-x16 lg:text-x18 uppercase text-minsk">Categories</p>
+                <div>
+                    <p className="font-mulish normal font-black text-x16 lg:text-x18 uppercase text-minsk">Categories</p>
+                    <p className="font-mulish normal  md:hidden font-black text-x16 lg:text-x18 uppercase text-minsk">0 of 3 allowed</p>
+                </div>
                 <div className="flex flex-row">
-                    <p className="font-mulish normal font-black text-x16 lg:text-x18 uppercase text-minsk">0 of 3 allowed</p>
+                    <p className="font-mulish normal hidden md:block font-black text-x16 lg:text-x18 uppercase text-minsk">0 of 3 allowed</p>
                     <div class="flex justify-center">
                         <div>
                             <input
@@ -42,7 +45,7 @@ const Cookies = () => {
                         </div>
                     </div>
                 </div>
-                <p className="font-mulish normal font-normal text-x14 lg:text-x16 text-butterflyBuss">These cookies are used to measure and analyze our website audience (e.g. visitor volume, pages viewed, average browsing time). By accepting these cookies, you are helping us improve our website performance.</p>
+                <p className="font-mulish normal font-normal text-x14 lg:text-x16 text-butterflyBuss text-justify">These cookies are used to measure and analyze our website audience (e.g. visitor volume, pages viewed, average browsing time). By accepting these cookies, you are helping us improve our website performance.</p>
             </div>
             <div className="my-5">
                 <div className="flex flex-row justify-between">
@@ -57,7 +60,7 @@ const Cookies = () => {
                         </div>
                     </div>
                 </div>
-                <p className="font-mulish normal font-normal text-x14 lg:text-x16 text-butterflyBuss">These cookies allow us to provide you with online (or in-store) recommendations of products, services and content that match your expectations and preferences. By accepting these cookies, you are opting for an enriched and personalised experience.</p>
+                <p className="font-mulish normal text-justify font-normal text-x14 lg:text-x16 text-butterflyBuss">These cookies allow us to provide you with online (or in-store) recommendations of products, services and content that match your expectations and preferences. By accepting these cookies, you are opting for an enriched and personalised experience.</p>
             </div>
             <div className="my-5">
                 <div className="flex flex-row justify-between">
@@ -72,17 +75,17 @@ const Cookies = () => {
                         </div>
                     </div>
                 </div>
-                <p className="font-mulish normal font-normal text-x14 lg:text-x16 text-butterflyBuss">These cookies are used for advertisements displayed on third-party websites, including social media, are tailored to your preferences, and help us measure the effectiveness of our advertising campaigns. If you deactivate these cookies, advertising (including ours) will continue to be displayed as you browse the Internet, although it will not be specific to your personal interests or as relevant.</p>
+                <p className="font-mulish text-justify normal font-normal text-x14 lg:text-x16 text-butterflyBuss">These cookies are used for advertisements displayed on third-party websites, including social media, are tailored to your preferences, and help us measure the effectiveness of our advertising campaigns. If you deactivate these cookies, advertising (including ours) will continue to be displayed as you browse the Internet, although it will not be specific to your personal interests or as relevant.</p>
             </div>
             <div className="my-5">
                 <div className="flex flex-row justify-between">
                     <p className="my-2 font-mulish normal font-black text-x14 lg:text-x16 text-lavender">Functional Cookies</p>
                     <p className="my-2 font-mulish normal font-black text-x14 lg:text-x16 text-lavender">Required</p>
                 </div>
-                <p className="font-mulish normal font-normal text-x14 lg:text-x16 text-butterflyBuss">These cookies are required for optimal operation of our website, and cannot be configured. They allow us to offer you the key functions of the website (language used, display resolution, account access etc.), provide you with online advice and secure our website against any attempted fraud. (These are shell_name_change, ApplicationGatewayAffinity, ApplicationGatewayAffinityCORS and _evidon_*)</p>
+                <p className="font-mulish normal text-justify font-normal text-x14 lg:text-x16 text-butterflyBuss">These cookies are required for optimal operation of our website, and cannot be configured. They allow us to offer you the key functions of the website (language used, display resolution, account access etc.), provide you with online advice and secure our website against any attempted fraud. (These are shell_name_change, Application Gateway Affinity, Application Gateway Affinity CORS and _evidon_*)</p>
             </div>
             <div className="mt-12 flex md:flex-row justify-center items-center flex-col">
-                <button className="bg-transparent w-48 px-5 py-2 font-mulish font-black normal text-martinique uppercase text-base mr-3 border-2 border-martinique">Decline all</button>
+                <button className="bg-transparent w-48 px-5 py-2 font-mulish font-black normal text-martinique uppercase text-base border-2 border-martinique">Decline all</button>
                 <GradientButton text={"Accept all"} />
             </div>
         </div>

@@ -26,7 +26,8 @@ const MainPage = () => {
     if (adBlockDetected) {
       setShowModal(true);
     }
-  }, []);
+  }, [adBlockDetected]);
+
   return (
     <div className="main">
       <CookiesModal
